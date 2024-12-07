@@ -44,7 +44,7 @@ public class Main {
                     .build();
 
             List<String[]> rows = reader.readAll();
-            rows.remove(0); // Удаляем заголовок
+            rows.removeFirst(); // Удаляем заголовок
 
             for (String[] row : rows) {
                 try {

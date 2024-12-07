@@ -34,7 +34,7 @@ public class MainTest {
         assertEquals(3, people.size(), "Ожидается 3 человека в списке (строки с корректными данными)");
 
         // Проверяем данные первого человека
-        Person person = people.get(0);
+        Person person = people.getFirst();
         assertEquals(1, person.getId());
         assertEquals("Alice", person.getName());
         assertEquals("Female", person.getGender());
