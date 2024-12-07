@@ -1,0 +1,5 @@
+id;name;gender;BirthDate;Division;Salary
+1;Alice;Female;12.05.1985;HR;3000.00
+2;Bob;Male;15.06.1990;IT;5000.50
+3;Charlie;Male;01.01.1975;Finance;4000.00
+4;Invalid;Female;07.07.2000;HR;abc
