@@ -1,4 +1,5 @@
 package org.example;
+import java.util.Locale;
 
 /**
  * Класс представляет человека с информацией о его данных, зарплате и подразделении.
@@ -91,7 +92,8 @@ public class Person {
      */
     @Override
     public String toString() {
-        return String.format("Person{id=%d, name='%s', gender='%s', subdivision=%s, salary=%.2f, birthDate='%s'}",
+        return String.format(Locale.US, "Person{id=%d, name='%s', gender='%s', subdivision=%s, salary=%.2f, birthDate='%s'}",
                 id, name, gender, subdivision, salary, birthDate);
     }
+
 }
